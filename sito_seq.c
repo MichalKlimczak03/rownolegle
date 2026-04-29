@@ -19,7 +19,7 @@ int eigensymmatrix(int n, long double* a, int k1, int k2, long double* x)
   int i,j,k,k3,k4,L,L1,z;
   long double eps,g,h,ma,mn,norm,s,t,u,w;
   int cond;
-  long double d[NMAX], e[NMAX], e2[NMAX], Lb[NMAX];
+  long double d[NMAX+1], e[NMAX+1], e2[NMAX+1], Lb[NMAX+1];
 
   if ((1<=k1) && (k1<=k2) && (k2<=n))
    {
