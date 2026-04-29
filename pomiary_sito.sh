@@ -6,8 +6,8 @@ K=88
 
 SIZES=(100 200 400 800 1600 3200 6400 12800 25600 51200 102400)
 
-SEQ="./sito_seq"
-OMP="./sito_omp"
+SEQ="./sito_seq_v2"
+OMP="./sito_omp_v2"
 
 OMP_THREADS=4
 BATCH_SIZE=4096
